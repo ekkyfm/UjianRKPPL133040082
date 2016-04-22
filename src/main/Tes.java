@@ -18,7 +18,7 @@ public class Tes {
 	@Test
 	public void testNotNull(){
 		mahasiswa = new Mahasiswa();
-		mahasiswa.setNama("asd");
+		mahasiswa.setNama(null);
 		assertNotNull("seharusnya tidak null",mahasiswa.getNama());
 		assertNull("seharusnya null",mahasiswa.getNama());
 		assertEquals("a", "b");
